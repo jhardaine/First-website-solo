@@ -5,7 +5,7 @@
 
 
 * {
-   margin: 0 ;
+   margin: 0;
    padding: 0px;
    box-sizing: border-box;
    color: #243e63;
@@ -24,7 +24,7 @@ a {
 nav {
   display: flex;
   align-items: center;
-  padding: 0 5px;
+  padding: 40px 0;
 }
 
 
@@ -49,7 +49,8 @@ nav {
 }
 
 .nav__title {
-font-size: 25px;
+font-size: 24px;
+font-weight: 900;
 }
 
 .logo {
@@ -70,10 +71,12 @@ font-size: 25px;
    cursor: pointer;
    display: flex;
    align-items: center;
+   font-size: 16;
+   font-weight: 700;
 }
 
 
-/* HEADER */
+/*     HEADER      */
 
 header {
   padding: 62px 0;
@@ -111,28 +114,88 @@ header {
 .header-img {
   display: block;
   width: 100%;
-  margin: 0;
 }
 
+.purple {
+  color: #6415ff;
+}
 .header-title {
-  padding-bottom: 20px;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .header__des--para {
-  padding-bottom: 20px;
+  margin: 38px 0;
+  font-size: 18px;
 }
 
 .header-input__wrapper {
   position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 448px;
+  height: 68px;
 }
 
 .header-input {
   padding: 20px 100px;
   border-radius: 30px;
+  border: 2px solid rgb(229, 231, 235); 
   width: 100%;
+  padding: 20px 192px 20px 32px;
+  color: rgb(36, 62, 99);
+  font-size: 16px; 
+  font-weight: 500;
+  z-index: 1;
 }
 
 .get-started__button {
   position: absolute;
-  right: 0;
+  margin: 0 8px;
+  height: 50px;
+  z-index: 2;
+  margin-right: 6.5px;
+  border-radius: 300px;
+  width: 145px;
+  background-color: #6415ff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  color: white;
+}
+
+.bottom-logo__wrapper {
+  margin: 32px 0;
+}
+
+.logo-strip {
+  width: 100%;
+  margin: 18px 0;
+  padding-right: 128px;
+  opacity: 0.5;
+}
+
+.header-des__bottom {
+ color: #a0aec0;
+}
+
+
+/*     main      */
+
+
+main {
+  margin: 50px 0;
+}
+
+.section-tag {
+}
+
+.row__narrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
 }
