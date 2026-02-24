@@ -190,7 +190,10 @@ main {
 }
 
 .section-tag {
+  font-size: 19px;
+  letter-spacing: 1.6px;
 }
+
 
 .row__narrow {
   display: flex;
@@ -198,4 +201,49 @@ main {
   align-items: center;
   max-width: 1200px;
   width: 100%;
+}
+
+.feat-heading {
+  margin: 20px 0;
+  font-size: 55px;
+  font-weight: 900;
+}
+
+.feat-des {
+  max-width: 576px;
+  text-align: center;
+  font-size: 17px;
+  color: #7c8ba1;
+  padding: auto;
+}
+
+.feat-list__wrapper {
+width: calc(100% / 3);
+}
+
+.feat-lists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.feat-list {
+ padding: 32px 24px;
+  display: flex;
+  flex-direction:
+  align-items: flex-start;
+}
+
+.feat-list__heading {
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.feat-list__para {
+  color:#7c8ba1;
+  font-size: 16px;
+}
+
+.list-img__wrapper {
 }
