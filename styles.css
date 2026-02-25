@@ -247,3 +247,8 @@ width: calc(100% / 3);
 
 .list-img__wrapper {
 }
+
+.head__para--wrapper {
+  display: flex;
+  flex-direction: column;
+}
