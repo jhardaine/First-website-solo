@@ -268,3 +268,29 @@ width: calc(100% / 3);
 #quality, #features {
   margin-bottom: 250px;
 }
+
+
+.quality-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.quality-right {
+  
+}
+
+.quality-img__wrapper {
+  display: flex;
+  width: 50%;
+}
+
+.quality-img {
+  width: 100%;
+}
+
+.quality__grid {
+  display: block;
+}
