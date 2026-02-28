@@ -6,7 +6,7 @@
 
 * {
    margin: 0;
-   padding: 0px;
+   padding: 0;
    box-sizing: border-box;
    color: #243e63;
    font-family: "Roboto", sans-serif;
@@ -127,6 +127,7 @@ header {
 .header__des--para {
   margin: 38px 0;
   font-size: 18px;
+  line-height: 26px;
 }
 
 .header-input__wrapper {
@@ -218,6 +219,7 @@ main {
   font-size: 17px;
   color: #7c8ba1;
   padding: auto;
+  line-height: 26px;
 }
 
 .feat-list__wrapper {
@@ -245,6 +247,7 @@ width: calc(100% / 3);
 .feat-list__para {
   color:#7c8ba1;
   font-size: 16px;
+  line-height: 26px;
 }
 
 .list-img__wrapper {
@@ -269,6 +272,9 @@ width: calc(100% / 3);
   margin-bottom: 250px;
 }
 
+.quality-head {
+max-width: 517px;
+}
 
 .quality-left {
   width: 50%;
@@ -277,20 +283,82 @@ width: calc(100% / 3);
   align-items: flex-start;
 }
 
-
-.quality-right {
-  
+.quality-des {
+  max-width: 517px;
+  font-weight: 450;
+font-size: 18px;
+line-height: 29px;
+color: rgb(124, 139, 161);
 }
 
+.learn-more__button {
+margin: 14px 0;
+padding: 15px 35px;
+border: none;
+border-radius:50px;
+font-weight: 800;
+color: white;
+background-color:#6415ff;
+}
+
+
 .quality-img__wrapper {
-  display: flex;
-  width: 50%;
+  position: relative;
+ border: 1px solid rgb(229, 231, 235); 
+ border-radius: 4px;
+ z-index: 2;
+ display: flex;
+ width: 50%;
 }
 
 .quality-img {
   width: 100%;
+  z-index: 1;
 }
 
 .quality__grid {
+  transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: rgb(100, 21, 255);
+    --tw-text-opacity: 1;
+    color: rgba(100, 21, 255, var(--tw-text-opacity));
+    z-index: 0;
+    display: block;
+}
+
+
+
+
+/* steps */
+
+
+
+.steps-img__wrapper {
+  width: 50%;
+  display: flex;
+  position: relative;
+}
+
+.steps-img {
+  width: 100%;
+  z-index: 2;
+}
+
+.steps__grid {
   display: block;
+  position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateY(-18%) translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: rgb(100, 21, 255);
+    opacity: 0.1;
 }
