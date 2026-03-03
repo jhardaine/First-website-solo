@@ -413,5 +413,24 @@ margin-bottom: 20px;
 
 
 #values {
-margin-top: 25w0px;
+  margin-top: 250px;
 }
+
+
+.values-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;}
+
+
+  .value-img__right-wrapper {
+   width:50%;
+   display: flex;
+   margin: 0 auto;
+  
+  }
+
+  .value-img__right {
+    max-width: 100%;
+  }
+
