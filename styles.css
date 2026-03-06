@@ -499,6 +499,10 @@ flex-direction: row;
 
   /* PRICING */
 
+#pricing{
+  margin-top: 250px;
+}
+
 
   .pricing__section-des {
     max-width: 576px;
@@ -507,6 +511,24 @@ flex-direction: row;
     font-size: 18px;
     font-weight: 500;
     color: #718096;
+    margin-bottom: 55px;
+  }
+
+
+  .plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+  }
+
+  .plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
 
