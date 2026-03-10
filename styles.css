@@ -563,13 +563,6 @@ flex-direction: row;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
   }
 
-  plan:nth-child(2) .plan-stripe {
-    
-  }
-
-  plan:nth-child(3) .plan-stripe {
-    
-  }
 
   .plan-top {
     display: flex;flex-direction: column;
@@ -623,6 +616,93 @@ flex-direction: row;
 
 
 
+.plan-middle {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  padding: 32px;
+  margin: 0 -32px;
+  width: 384px;
+}
+
+.plan:nth-child(odd) .plan-middle {
+  border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235);
+}
+
+.plan:nth-child(even) .plan-middle {
+  border-top: 2px solid rgb(102, 126, 234);
+  border-bottom: 2px solid rgb(102, 126, 234);
+}
 
 
-  
+.plan-target {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.plan:nth-child(odd) .plan-target {
+    color: #1a202c;
+}
+
+.plan:nth-child(even) .plan-target {
+  color: white;
+}
+
+.plan-feature {
+  margin-top: 20px;
+  font-weight: 500;
+  color: #718096;
+  font-size: 17px;
+  line-height: 1.5
+}
+
+.plan:nth-child(2) .plan-feature {
+  color: #f7fafc;
+}
+
+.plan-bottom {
+  padding: 64px 32px;
+}
+
+.buy-now_button { 
+  padding: 15px 55px;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 9999px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+
+.plan:nth-child(1) .buy-now_button {
+color: #f7fafc;
+background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+
+.plan:nth-child(2) .buy-now_button {
+color: #6415ff;
+background-color: #f7fafc;  
+}
+
+
+.plan:nth-child(3) .buy-now_button {
+color: #f7fafc;
+background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);  
+}
+
+
+.plans-blob {
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+    height: 256px;
+    width: 256px;
+    opacity: 0.25;
+}
