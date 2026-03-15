@@ -713,3 +713,44 @@ background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 10
     width: 256px;
     opacity: 0.25;
 }
+
+
+/*        TESTIMONIALS     */
+
+
+#testimonials {
+  margin-top: 250px;
+}
+
+.testimonials-img__wrapper {
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials-img {
+  width: 100%;
+}
+
+.testimonials-right {
+  max-width: 50%;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+
+.testimonials-para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+
+.testimonial-rating {
+  margin: 25px 0 20px 0;
+
+}
