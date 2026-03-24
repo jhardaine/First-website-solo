@@ -843,3 +843,92 @@ svg {
 }
 
 
+.start__blob--1 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 302px;
+  width: 302px;
+  transform: translate(-80px, 128px);
+  color: rgb(80 17 204);
+  opacity: 0.5;
+}
+
+.start__blob--2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 320px;
+  width: 320px;
+  transform: translate( 80px -256px);
+  color: rgb (80 17 204);
+  opacity: 0.5;
+}
+
+
+.start-wrapper {
+  width: 100%;
+  height: 282px;
+  margin: 0 auto;
+  padding: 96px 0;
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.start-row {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start-head {
+  width: 50%;
+  color:#f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
+}
+
+
+.start-buttons {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px
+}
+
+
+.start-button {
+ padding: 20px 40px;
+ border-radius: 500px;
+ font-weight: 700;
+ font-size: 16px;
+ color: #f7fafc;
+ line-height: 1.5;
+ letter-spacing: 0.025px;
+ margin: 1px;
+ z-index: 2;
+}
+
+.start-button:nth-child(1) {
+  background: #f56565;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-right: 32px;
+    transition: all 300ms ease;
+    border: none;
+}
+
+.start-button:nth-child(2) {
+  background-color: #6415ff;
+  border: 1px solid rgb(160, 174, 192);
+  transition: all 300ms ease;
+}
