@@ -839,7 +839,7 @@ svg {
 /*     start    */
 
 #start {
-  margin-top: 250px;
+  margin: 250px 0;
 }
 
 
@@ -931,4 +931,21 @@ svg {
   background-color: #6415ff;
   border: 1px solid rgb(160, 174, 192);
   transition: all 300ms ease;
+}
+
+/*      FOOTER       */
+
+
+footer { 
+  padding: 96px 32px;
+  background-color: rgb(100, 21, 255);
+  margin-bottom: -32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
