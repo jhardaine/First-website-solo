@@ -10,7 +10,6 @@
    box-sizing: border-box;
    color: #243e63;
    font-family: "Roboto", sans-serif;
-
 }
 
 ul {
@@ -856,8 +855,8 @@ svg {
 
 .start__blob--2 {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: -255px;
+  right: -100px;
   height: 320px;
   width: 320px;
   transform: translate( 80px -256px);
@@ -903,7 +902,7 @@ svg {
   width: 50%;
   display: flex;
   justify-content: flex-end;
-  gap: 30px
+  gap: 25px;
 }
 
 
@@ -922,7 +921,6 @@ svg {
 .start-button:nth-child(1) {
   background: #f56565;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    margin-right: 32px;
     transition: all 300ms ease;
     border: none;
 }
@@ -941,11 +939,100 @@ footer {
   background-color: rgb(100, 21, 255);
   margin-bottom: -32px;
   position: relative;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .footer-row {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-title {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+
+.column-item {
+  color: white;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+
+.footer-divider {
+  width: 100%;
+  background-color: rgb(116, 44, 255);
+  height: 2px;
+  margin: 64px 0;
+}
+
+
+.footer-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+ align-items: center;
+}
+
+
+
+.treact-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.treact-img__wrapper {
+  width: 32px;
+  height: 32px;
+}
+
+.treact-footer__img {
+  width: 100%;
+}
+
+.treact-title {
+  color: white;
+  font-weight: 900;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+
+.footer-copyright {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-right: -16px;
+}
+
+
+.social-link {  
+  background-color: white;
+  border-radius: 500px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
 }
