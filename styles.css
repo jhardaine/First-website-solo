@@ -1251,12 +1251,23 @@ footer {
 
 /*    large - small - medium  phones    */
 
-@media max-width(550px) {
+@media (max-width: 550px) {
 
-.header-row {
-  max-width: 470px;
-  align-items: center;
+h1, h2, h3, h4, p, div {
+  text-align: center;
 }
+
+  header {
+    max-width: 85%;
+  }
+
+
+  .header__des--para {
+    width: 100%;
+  }
+
+  
+
 
 
 }
