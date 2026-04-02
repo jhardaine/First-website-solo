@@ -1247,6 +1247,17 @@ footer {
 .footer-copyright {
   margin: 30px 0;
 }
+}
+
+/*    large - small - medium  phones    */
+
+@media max-width(550px) {
+
+.header-row {
+  max-width: 470px;
+  align-items: center;
+}
+
 
 }
 
