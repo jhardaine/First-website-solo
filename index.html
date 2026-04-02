@@ -29,18 +29,14 @@
             <li class="nav__link"> <button class="nav__button"><a class="button__link" href="#signup">Sign Up</a></button></li>
         </ul>
       </div>
-      <button class="btn-menu" onclick="openMenu" ()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn__menu--svg">
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
+      <button class="btn-menu" onclick="openMenu()">
+        <i class="fas fa-bars"></i>
         </button>
 
             <div class="menu">
-        <button class="btn-menu btn-menu__close" onclick="closeMenu" ()><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledCloseIcon-lj69nl-14 fASujC">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg></button>
+        <button class="btn-menu btn-menu__close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+        </button>
           <ul class="menu-links">
             <li class="menu-link"> <a href="#about">About</a></li>
             <li class="menu-link"> <a href="#blog">Blog</a></li>
@@ -55,7 +51,7 @@
     
 
 <header>
- <div class="row">
+ <div class="row header-row">
     <div class="header__left">
     <h2 class="header-title">Beautiful React Templates<span class="purple"> for you.</span></h2>
     <p class="header__des--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
@@ -96,7 +92,7 @@
 </div>
 </section>
 <section id="quality"> 
-    <div class="row">
+    <div class="row quality-row">
         <div class="quality-left">
         <h4 class="section-tag purple">QUALITY WORKS</h4>
 <h1 class="quality-head section-heading">Designed & Developed by <span class="purple"> Professionals.</span></h1>
@@ -275,7 +271,7 @@
             </figure>
             
             <div class="testimonials-right">
-                <h4 class="section-tag purple">TESTIMONIALS</h4>
+                <h4 class="section-tag purple testimonials-tag">TESTIMONIALS</h4>
                 <h1 class="section-heading">Our Clients <span class="purple">Love Us.</span></h1>
                 <div class="testimonials-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</div>
                 <div class="testimonial">
