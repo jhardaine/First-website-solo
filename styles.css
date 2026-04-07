@@ -1266,9 +1266,37 @@ h1, h2, h3, h4, p, div {
     width: 100%;
   }
 
+  .feat-lists {
+    justify-content: center;
+  }
+
+
+  .steps-right {
+    margin: 0 auto;    
+  }
   
+  .values-list {
+    flex-direction: column;
+  }
+
+  .value-img__right-wrapper {
+    align-items: center;
+    margin-top: 100px;
+    width: 400px;
+  }
+
+  .section-tag { 
+    margin-top: 150px;
+  }
+
+  .testimonials-right {
+    margin: 0;
+    align-items: center;
+  }
 
 
-
+  .footer-row {
+    width: calc(100%/2);
+  }
 }
 
